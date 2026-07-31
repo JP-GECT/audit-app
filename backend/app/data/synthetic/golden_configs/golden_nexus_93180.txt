@@ -1,0 +1,3 @@
+hostname golden_nexus_93180
+feature nxapi
+vpc domain 1

@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    "dev-005",
+    "dev-000",
+    "dev-001",
+    "dev-002",
+    "dev-003",
+    "dev-004",
+    "dev-006",
+    "dev-007",
+    "dev-008",
+    "dev-009"
+  ],
+  "edges": [
+    {
+      "source": "dev-005",
+      "target": "dev-000",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-001",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-002",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-003",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-004",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-006",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-007",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-008",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-005",
+      "target": "dev-009",
+      "type": "uplink"
+    },
+    {
+      "source": "dev-000",
+      "target": "dev-001",
+      "type": "peer"
+    },
+    {
+      "source": "dev-001",
+      "target": "dev-002",
+      "type": "peer"
+    },
+    {
+      "source": "dev-002",
+      "target": "dev-003",
+      "type": "peer"
+    },
+    {
+      "source": "dev-003",
+      "target": "dev-004",
+      "type": "peer"
+    },
+    {
+      "source": "dev-004",
+      "target": "dev-006",
+      "type": "peer"
+    },
+    {
+      "source": "dev-006",
+      "target": "dev-007",
+      "type": "peer"
+    },
+    {
+      "source": "dev-007",
+      "target": "dev-008",
+      "type": "peer"
+    },
+    {
+      "source": "dev-008",
+      "target": "dev-009",
+      "type": "peer"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+hostname golden_catalyst_9300
+stack-mac persistent timer 0
+ip dhcp snooping

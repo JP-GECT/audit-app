@@ -1,0 +1,121 @@
+[
+  {
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware": "17.3.1",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware": "17.6.4",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware": "16.12.5",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware": "17.3.1",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware": "17.6.4",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware": "16.12.5",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware": "17.3.1",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware": "17.6.4",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware": "16.12.5",
+    "supported": false,
+    "notes": "known incompatibility, see incident INC-004"
+  },
+  {
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware": "17.3.1",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware": "17.6.4",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware": "16.12.5",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Nexus-93180YC",
+    "os": "nx-os",
+    "firmware": "9.3.10",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "Nexus-93180YC",
+    "os": "nx-os",
+    "firmware": "10.2.3",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware": "17.3.1",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware": "17.6.4",
+    "supported": true,
+    "notes": "supported baseline"
+  },
+  {
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware": "16.12.5",
+    "supported": true,
+    "notes": "supported baseline"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "device_id": "dev-000",
+    "dns": {
+      "reachable": false,
+      "latency_ms": 999
+    },
+    "ntp": {
+      "reachable": false,
+      "offset_ms": 5000
+    },
+    "mgmt_plane": {
+      "reachable": false,
+      "latency_ms": 500
+    }
+  },
+  {
+    "device_id": "dev-001",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-002",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-003",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-004",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-005",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-006",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-007",
+    "dns": {
+      "reachable": false,
+      "latency_ms": 999
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-008",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-009",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-010",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-011",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": false,
+      "latency_ms": 500
+    }
+  },
+  {
+    "device_id": "dev-012",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-013",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": false,
+      "offset_ms": 5000
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-014",
+    "dns": {
+      "reachable": false,
+      "latency_ms": 999
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-015",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-016",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-017",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-018",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-019",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-020",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-021",
+    "dns": {
+      "reachable": false,
+      "latency_ms": 999
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-022",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": false,
+      "latency_ms": 500
+    }
+  },
+  {
+    "device_id": "dev-023",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-024",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-025",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-026",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": false,
+      "offset_ms": 5000
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-027",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-028",
+    "dns": {
+      "reachable": false,
+      "latency_ms": 999
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  },
+  {
+    "device_id": "dev-029",
+    "dns": {
+      "reachable": true,
+      "latency_ms": 12
+    },
+    "ntp": {
+      "reachable": true,
+      "offset_ms": 2
+    },
+    "mgmt_plane": {
+      "reachable": true,
+      "latency_ms": 8
+    }
+  }
+]

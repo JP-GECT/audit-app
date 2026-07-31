@@ -1,0 +1,632 @@
+[
+  {
+    "device_id": "dev-000",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-07-20T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "93446f17ed6457b1"
+  },
+  {
+    "device_id": "dev-001",
+    "model": "UNKNOWN-9999",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-c",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-03-09T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "6e23ae818ce6709a"
+  },
+  {
+    "device_id": "dev-002",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-09-28T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "INVALID"
+  },
+  {
+    "device_id": "dev-003",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-03-25T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": false,
+      "checks": {
+        "dot1x": false,
+        "mab": false
+      }
+    },
+    "fingerprint": "a400ff95eb15ea17"
+  },
+  {
+    "device_id": "dev-004",
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-c",
+    "role": "distribution",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-04-11T03:07:06.223823+00:00",
+      "revoked": true
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "8717195c92805af2"
+  },
+  {
+    "device_id": "dev-005",
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-02-08T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "3fc428699d4fd8ee"
+  },
+  {
+    "device_id": "dev-006",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-b",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-02-04T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "b23f41afa5f47b19"
+  },
+  {
+    "device_id": "dev-007",
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-a",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-09-22T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "eff3cfda4c3ba15e"
+  },
+  {
+    "device_id": "dev-008",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-b",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-10-12T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "ab4110dc8b7b2446"
+  },
+  {
+    "device_id": "dev-009",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-c",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-09-20T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "f6450ec13214c107"
+  },
+  {
+    "device_id": "dev-010",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-04-11T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "8595c3241b3338d7"
+  },
+  {
+    "device_id": "dev-011",
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-a",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-04-19T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "358418a37e6ea7e7"
+  },
+  {
+    "device_id": "dev-012",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-09-22T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "041828bfb2b50728"
+  },
+  {
+    "device_id": "dev-013",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-c",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-02-11T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "20d2dd0a416d9563"
+  },
+  {
+    "device_id": "dev-014",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-a",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-06-22T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "e5c30df880ce0b25"
+  },
+  {
+    "device_id": "dev-015",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-c",
+    "role": "core",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-02-26T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "aa91bb1289552259"
+  },
+  {
+    "device_id": "dev-016",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "distribution",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-09-21T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "0955d96be0310a3d"
+  },
+  {
+    "device_id": "dev-017",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-c",
+    "role": "core",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-07-27T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "e08e7940d8b7ae12"
+  },
+  {
+    "device_id": "dev-018",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-10-13T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "e5c3a3eab2dfaa06"
+  },
+  {
+    "device_id": "dev-019",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-04-03T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "ad61d31be328fa61"
+  },
+  {
+    "device_id": "dev-020",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-b",
+    "role": "distribution",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-01-22T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "24bc87b2b67c3077"
+  },
+  {
+    "device_id": "dev-021",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-a",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-04-18T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "c50b3d06a14d5c8a"
+  },
+  {
+    "device_id": "dev-022",
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-04-10T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "ebc9c628a8057b6c"
+  },
+  {
+    "device_id": "dev-023",
+    "model": "ISR-4331",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-10-16T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "b0fd4d943af457dd"
+  },
+  {
+    "device_id": "dev-024",
+    "model": "ISR-4321",
+    "os": "ios-xe",
+    "firmware_version": "17.3.1",
+    "site": "site-c",
+    "role": "core",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2027-11-04T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "761d6a1bf9580e75"
+  },
+  {
+    "device_id": "dev-025",
+    "model": "Nexus-93180YC",
+    "os": "nx-os",
+    "firmware_version": "9.3.10",
+    "site": "site-b",
+    "role": "distribution",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-04-30T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "e7ed041cf7316da3"
+  },
+  {
+    "device_id": "dev-026",
+    "model": "Catalyst-9200",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "edge",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-12-24T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "0ca5be342b990ecf"
+  },
+  {
+    "device_id": "dev-027",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "access",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-12-21T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "d246541e19cfec79"
+  },
+  {
+    "device_id": "dev-028",
+    "model": "Catalyst-9300",
+    "os": "ios-xe",
+    "firmware_version": "17.6.4",
+    "site": "site-a",
+    "role": "distribution",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2026-09-01T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "96219489e0c9512c"
+  },
+  {
+    "device_id": "dev-029",
+    "model": "ASR-1001",
+    "os": "ios-xe",
+    "firmware_version": "16.12.5",
+    "site": "site-b",
+    "role": "core",
+    "certificate": {
+      "issuer": "Internal CA",
+      "expires_at": "2028-01-30T03:07:06.223823+00:00",
+      "revoked": false
+    },
+    "nac_posture": {
+      "compliant": true,
+      "checks": {
+        "dot1x": true,
+        "mab": true
+      }
+    },
+    "fingerprint": "33e3f996588677ce"
+  }
+]

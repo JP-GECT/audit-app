@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+pytest
+pytest-asyncio
+faker
+chromadb
+langchain-anthropic
+networkx
+langgraph
+httpx

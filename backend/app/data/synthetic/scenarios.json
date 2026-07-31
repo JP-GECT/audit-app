@@ -1,0 +1,100 @@
+{
+  "scenarios": [
+    {
+      "id": "clean-pass",
+      "name": "Clean Pass",
+      "description": "A fully compliant device passes every check and auto-approves with no human intervention.",
+      "request": {
+        "request_id": "scenario-clean-pass",
+        "device": {
+          "device_id": "dev-010",
+          "model": "ISR-4321",
+          "os": "ios-xe",
+          "firmware_version": "16.12.5",
+          "site": "site-b",
+          "role": "access",
+          "certificate": {
+            "issuer": "Internal CA",
+            "expires_at": "2028-04-11T03:07:06.223823+00:00",
+            "revoked": false
+          },
+          "nac_posture": {
+            "compliant": true,
+            "checks": {
+              "dot1x": true,
+              "mab": true
+            }
+          },
+          "fingerprint": "8595c3241b3338d7"
+        },
+        "proposed_config": "hostname golden_access\ninterface range Gi1/0/1-48\n switchport mode access\n switchport access vlan 100\n",
+        "change_type": "new_device",
+        "requested_by": "demo"
+      }
+    },
+    {
+      "id": "blocked-at-identity",
+      "name": "Blocked at Identity",
+      "description": "An expired certificate triggers a hard fail, pausing for human approval; the reviewer rejects the change.",
+      "request": {
+        "request_id": "scenario-blocked-at-identity",
+        "device": {
+          "device_id": "dev-000",
+          "model": "ASR-1001",
+          "os": "ios-xe",
+          "firmware_version": "17.3.1",
+          "site": "site-a",
+          "role": "access",
+          "certificate": {
+            "issuer": "Internal CA",
+            "expires_at": "2026-07-20T03:07:06.223823+00:00",
+            "revoked": false
+          },
+          "nac_posture": {
+            "compliant": true,
+            "checks": {
+              "dot1x": true,
+              "mab": true
+            }
+          },
+          "fingerprint": "93446f17ed6457b1"
+        },
+        "proposed_config": "hostname golden_access\ninterface range Gi1/0/1-48\n switchport mode access\n switchport access vlan 100\n",
+        "change_type": "new_device",
+        "requested_by": "demo"
+      }
+    },
+    {
+      "id": "blast-radius-rollback",
+      "name": "Blast Radius Warning -> Rollback",
+      "description": "Initial checks pass and the change auto-approves, but a post-deploy blast-radius warning on a heavily-depended-on device triggers a rollback confirmation gate.",
+      "request": {
+        "request_id": "scenario-blast-radius-rollback",
+        "device": {
+          "device_id": "dev-005",
+          "model": "Catalyst-9200",
+          "os": "ios-xe",
+          "firmware_version": "16.12.5",
+          "site": "site-b",
+          "role": "edge",
+          "certificate": {
+            "issuer": "Internal CA",
+            "expires_at": "2027-02-08T03:07:06.223823+00:00",
+            "revoked": false
+          },
+          "nac_posture": {
+            "compliant": true,
+            "checks": {
+              "dot1x": true,
+              "mab": true
+            }
+          },
+          "fingerprint": "3fc428699d4fd8ee"
+        },
+        "proposed_config": "hostname golden_edge\ninterface Gi0/0\n description edge-uplink\n no shutdown\nntp server 10.0.0.1\n",
+        "change_type": "new_device",
+        "requested_by": "demo"
+      }
+    }
+  ]
+}

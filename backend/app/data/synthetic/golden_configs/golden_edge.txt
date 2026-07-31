@@ -1,0 +1,5 @@
+hostname golden_edge
+interface Gi0/0
+ description edge-uplink
+ no shutdown
+ntp server 10.0.0.1

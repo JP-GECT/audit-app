@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  /* Neumorphic base — page and every raised/inset surface share this one color;
+     depth comes only from the dual light/dark shadow pair below, never from a
+     background-color or border difference. */
+  --neu-bg: #e7e6e1;
+  --neu-light: #ffffff;
+  --neu-dark: #b9b7ac;
+
+  --surface-0: var(--neu-bg);
+  --surface-1: var(--neu-bg);
+  --surface-2: var(--neu-bg);
+
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #82807a;
+  --gridline: #d6d4cb;
+  --border: rgba(11, 11, 11, 0.08);
+  --border-strong: #c3c2b7;
+
+  --series-1: #2a78d6; /* blue */
+  --series-2: #eb6834; /* orange */
+  --series-3: #1baf7a; /* aqua */
+  --series-4: #eda100; /* yellow */
+  --series-5: #e87ba4; /* magenta */
+  --series-6: #008300; /* green */
+  --series-7: #4a3aa7; /* violet */
+  --series-8: #e34948; /* red */
+
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  --seq-100: #cde2fb;
+  --seq-300: #6da7ec;
+  --seq-500: #256abf;
+  --seq-700: #0d366b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --neu-bg: #242422;
+    --neu-light: #34342f;
+    --neu-dark: #121211;
+
+    --surface-0: var(--neu-bg);
+    --surface-1: var(--neu-bg);
+    --surface-2: var(--neu-bg);
+
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #9c9a92;
+    --gridline: #35352f;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-strong: #3d3d38;
+
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+    --series-7: #9085e9;
+    --series-8: #e66767;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --neu-bg: #242422;
+  --neu-light: #34342f;
+  --neu-dark: #121211;
+
+  --surface-0: var(--neu-bg);
+  --surface-1: var(--neu-bg);
+  --surface-2: var(--neu-bg);
+
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #9c9a92;
+  --gridline: #35352f;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: #3d3d38;
+
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+  --series-7: #9085e9;
+  --series-8: #e66767;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--neu-bg);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Neumorphism ---------- */
+
+.neu-raised {
+  background: var(--neu-bg);
+  box-shadow: 7px 7px 14px var(--neu-dark), -7px -7px 14px var(--neu-light);
+}
+
+.neu-raised-sm {
+  background: var(--neu-bg);
+  box-shadow: 3px 3px 7px var(--neu-dark), -3px -3px 7px var(--neu-light);
+}
+
+.neu-flat {
+  background: var(--neu-bg);
+  box-shadow: 0 1px 0 var(--neu-dark);
+}
+
+.neu-inset {
+  background: var(--neu-bg);
+  box-shadow: inset 3px 3px 7px var(--neu-dark), inset -3px -3px 7px var(--neu-light);
+}
+
+.neu-inset-lg {
+  background: var(--neu-bg);
+  box-shadow: inset 5px 5px 11px var(--neu-dark), inset -5px -5px 11px var(--neu-light);
+}
+
+.neu-btn {
+  background: var(--neu-bg);
+  box-shadow: 4px 4px 9px var(--neu-dark), -4px -4px 9px var(--neu-light);
+  transition: box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.neu-btn:hover {
+  box-shadow: 2px 2px 5px var(--neu-dark), -2px -2px 5px var(--neu-light);
+}
+
+.neu-btn:active,
+.neu-btn[data-pressed="true"] {
+  box-shadow: inset 3px 3px 6px var(--neu-dark), inset -3px -3px 6px var(--neu-light);
+  transform: translateY(0.5px);
+}
+
+.neu-btn:disabled {
+  box-shadow: 2px 2px 5px var(--neu-dark), -2px -2px 5px var(--neu-light);
+  opacity: 0.55;
+}
+
+.neu-hover-lift {
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.neu-hover-lift:hover {
+  box-shadow: 9px 9px 18px var(--neu-dark), -9px -9px 18px var(--neu-light);
+  transform: translateY(-1px);
+}
+
+.neu-chip {
+  background: var(--neu-bg);
+  box-shadow: 2px 2px 5px var(--neu-dark), -2px -2px 5px var(--neu-light);
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--series-1) 45%, transparent);
+  }
+  100% {
+    box-shadow: 0 0 0 10px color-mix(in oklab, var(--series-1) 0%, transparent);
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes fade-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in {
+  animation: fade-slide-in 0.28s ease-out both;
+}

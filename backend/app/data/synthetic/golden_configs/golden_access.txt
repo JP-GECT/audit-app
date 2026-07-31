@@ -1,0 +1,4 @@
+hostname golden_access
+interface range Gi1/0/1-48
+ switchport mode access
+ switchport access vlan 100
